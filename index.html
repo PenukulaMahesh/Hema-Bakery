@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hema Bakery — family bakery since 2013. Custom cakes made with love and care in Vijayawada.">
+  <title>Hema Bakery | Baked with Love & Care</title>
+  <link rel="icon" href="assets/cupcake.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="announcement">Freshly baked happiness, made with love ❤️</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Hema Bakery home">
+      <img src="assets/cupcake.svg" alt="" class="brand-icon">
+      <span><strong>Hema Bakery</strong><small>LOVE & CARE SINCE 2013</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" id="mainNav">
+      <a href="#home">Home</a><a href="#cakes">Our Cakes</a><a href="#about">Our Story</a><a href="#contact">Contact</a>
+      <a class="nav-cta" href="tel:+917989839636">Call to Order</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">A LITTLE SLICE OF HAPPINESS</p>
+        <h1>Every celebration<br>deserves a <em>beautiful cake.</em></h1>
+        <p class="hero-description">From birthday surprises to once-in-a-lifetime moments, we bake every creation with love, care, and a little extra sweetness.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#cakes">Explore Our Cakes <span>→</span></a>
+          <a class="text-link" href="#contact">Plan your celebration</a>
+        </div>
+        <div class="hero-note"><span class="heart">♥</span><span><strong>Family bakery since 2013</strong><small>Made fresh for your special moments</small></span></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-blob"></div>
+        <img class="hero-cake" src="assets/hero-cake.svg" alt="Illustration of a pink celebration cake with strawberries">
+        <div class="floating-card card-top">Made with <span>♥</span></div>
+        <div class="floating-card card-bottom"><span class="star">✦</span> Custom cakes<br><small>Made just for you</small></div>
+      </div>
+    </section>
+
+    <section class="trust-strip" aria-label="Bakery highlights">
+      <div><span>✦</span> Baked with care</div><div><span>♡</span> Custom designs</div><div><span>✿</span> For every occasion</div><div><span>♥</span> Family bakery</div>
+    </section>
+
+    <section class="section cakes-section" id="cakes">
+      <div class="section-heading">
+        <p class="eyebrow">SOMETHING SWEET FOR EVERYONE</p>
+        <h2>Find your <em>perfect cake</em></h2>
+        <p>Choose a favourite style, then contact us to personalise your cake.</p>
+      </div>
+      <div class="filter-row" role="group" aria-label="Filter cake categories">
+        <button class="filter-button active" data-filter="all">All cakes</button>
+        <button class="filter-button" data-filter="birthday">Birthday</button>
+        <button class="filter-button" data-filter="kids">Kids' cakes</button>
+        <button class="filter-button" data-filter="celebration">Celebrations</button>
+      </div>
+      <div class="cake-grid">
+        <article class="cake-card" data-category="birthday">
+          <div class="cake-image peach"><img src="assets/cake-birthday.svg" alt="Pink birthday cake illustration"></div>
+          <div class="cake-info"><span class="tag">BIRTHDAYS</span><h3>Birthday Bliss</h3><p>A cheerful centrepiece for your special day.</p><a href="#contact" class="order-link" data-cake="Birthday Bliss">Ask about this cake <span>↗</span></a></div>
+        </article>
+        <article class="cake-card" data-category="kids">
+          <div class="cake-image lavender"><img src="assets/cake-kids.svg" alt="Colourful kids theme cake illustration"></div>
+          <div class="cake-info"><span class="tag">LITTLE FAVOURITES</span><h3>Kids' Theme Cakes</h3><p>Fun colours and playful designs for little smiles.</p><a href="#contact" class="order-link" data-cake="Kids' Theme Cake">Ask about this cake <span>↗</span></a></div>
+        </article>
+        <article class="cake-card" data-category="celebration">
+          <div class="cake-image mint"><img src="assets/cake-anniversary.svg" alt="Elegant celebration cake illustration"></div>
+          <div class="cake-info"><span class="tag">SPECIAL MOMENTS</span><h3>Anniversary Cakes</h3><p>Sweet, elegant treats for memories together.</p><a href="#contact" class="order-link" data-cake="Anniversary Cake">Ask about this cake <span>↗</span></a></div>
+        </article>
+        <article class="cake-card" data-category="birthday">
+          <div class="cake-image butter"><img src="assets/cake-custom.svg" alt="Custom photo cake illustration"></div>
+          <div class="cake-info"><span class="tag">MADE FOR YOU</span><h3>Custom Photo Cakes</h3><p>Add a photo, message, colour, or personal touch.</p><a href="#contact" class="order-link" data-cake="Custom Photo Cake">Ask about this cake <span>↗</span></a></div>
+        </article>
+      </div>
+      <p class="custom-note">Have a design in mind? <a href="#contact">Tell us what you’re dreaming of →</a></p>
+    </section>
+
+    <section class="story-section" id="about">
+      <div class="story-art"><img src="assets/baker.svg" alt="Illustration of a baker holding a freshly baked cake"></div>
+      <div class="story-copy"><p class="eyebrow">A FAMILY BAKERY WITH HEART</p><h2>From our oven to your table, with <em>love & care.</em></h2><p>Since 2013, Hema Bakery has been part of birthdays, family gatherings, and the little moments that deserve something sweet. We believe every cake should feel personal, joyful, and made especially for you.</p><p>Tell us your occasion, favourite flavours, and design ideas. Let's make a sweet memory together.</p><a class="button button-dark" href="#contact">Let's make it special <span>→</span></a></div>
+    </section>
+
+    <section class="quote-band"><span class="quote-mark">“</span><p>Good things are sweeter when they’re shared.</p><span class="quote-heart">♥</span></section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading">
+        <p class="eyebrow">LET'S MAKE SOMETHING SWEET</p><h2>Have a cake <em>in mind?</em></h2>
+        <p>Call us to discuss your design, occasion, and order details.</p>
+      </div>
+      <div class="contact-layout">
+        <div class="contact-card">
+          <div class="contact-icon">☎</div><h3>Call Hema Bakery</h3><p>For cake enquiries and orders</p><a class="phone-number" href="tel:+917989839636">79898 39636</a><a class="button button-primary full-button" href="tel:+917989839636">Call now</a>
+        </div>
+        <div class="contact-details">
+          <div class="detail-row"><span class="detail-icon">⌖</span><div><h3>Visit our bakery</h3><p>Pushpa Hotel Center, Kasthuribhaipet,<br>Madhu Gardens, Vijayawada,<br>Andhra Pradesh – 520007</p><a class="text-link" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Hema+Bakery+Pushpa+Hotel+Center+Kasthuribhaipet+Vijayawada">Get directions ↗</a></div></div>
+          <div class="detail-row"><span class="detail-icon">♡</span><div><h3>Made for your moment</h3><p>Birthday cakes, kids' themes, anniversary cakes, and personalised designs.</p></div></div>
+          <div class="detail-row"><span class="detail-icon">◎</span><div><h3>Follow along</h3><p>See our latest creations and bakery updates on Instagram.</p><a class="text-link" href="https://www.instagram.com/hema_bakery/" target="_blank" rel="noopener">@hema_bakery ↗</a></div></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand"><img src="assets/cupcake.svg" alt=""><span><strong>Hema Bakery</strong><small>Made with love, since 2013</small></span></div>
+    <p>From our oven to your table with “LOVE & CARE” ❤️</p>
+    <div class="footer-bottom"><span>© <span id="year"></span> Hema Bakery. All rights reserved.</span><span>Website developed by <strong>SM WebTech Solutions</strong></span></div>
+  </footer>
+  <a class="floating-call" href="tel:+917989839636" aria-label="Call Hema Bakery">☎</a>
+</body>
+</html>
